@@ -1,17 +1,8 @@
 @charset "utf-8";
-/*
-Template Name: Arialogic
-Author: <a href="https://www.os-templates.com/">OS Templates</a>
-Author URI: https://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: https://www.os-templates.com/template-terms
-File: Layout CSS
-*/
-
 @import url("fontawesome-4.5.0.min.css");
 @import url("framework.css");
 
-/* Rows
+/* Sıralar
 --------------------------------------------------------------------------------------------------------------- */
 .row1, .row1 a{}
 .row2, .row2 a{}
@@ -20,7 +11,7 @@ File: Layout CSS
 .row5, .row5 a{}
 
 
-/* Header
+/* Başlık
 --------------------------------------------------------------------------------------------------------------- */
 #header{padding:50px 0;}
 
@@ -30,7 +21,7 @@ File: Layout CSS
 #header #logo p{margin-top:-3px; font-size:.9rem; font-style:italic; text-transform:lowercase;}
 
 
-/* Page Intro
+/* Sayfa Intro
 --------------------------------------------------------------------------------------------------------------- */
 #pageintro{padding:120px 0; text-align:center;}
 
@@ -40,18 +31,18 @@ File: Layout CSS
 #pageintro article p:last-of-type{margin-bottom:0;}
 
 
-/* Content Area
+/* İçerik Alanı
 --------------------------------------------------------------------------------------------------------------- */
 .container{padding:80px 0;}
 
-/* Content */
+/* İçerik */
 .container .content{}
 
-/* 4 Blocks */
+/* 4 Blok */
 .blocks li{padding:50px 0; text-align:center;}
 .blocks li .btn{margin-bottom:30px;}
 
-/* Elements */
+/* Elementler */
 .elements li:last-child{margin-bottom:0;}/* Used for mobile devices when elements stack */
 .elements article{display:inline-block; width:100%; max-width:320px; height:100%;}
 .elements .txtwrap{padding:20px; border-top:5px solid; text-align:center;}
@@ -61,7 +52,7 @@ File: Layout CSS
 .elements .txtwrap p:last-child{margin-bottom:0;}
 .elements .txtwrap footer{}
 
-/* Comments */
+/* Yorumlar */
 #comments ul{margin:0 0 40px 0; padding:0; list-style:none;}
 #comments li{margin:0 0 10px 0; padding:15px;}
 #comments .avatar{float:right; margin:0 0 10px 10px; padding:3px; border:1px solid;}
@@ -76,14 +67,14 @@ File: Layout CSS
 #comments div{margin-bottom:15px;}
 #comments input[type="submit"], #comments input[type="reset"]{display:inline-block; width:auto; min-width:150px; margin:0; padding:8px 5px; cursor:pointer;}
 
-/* Sidebar */
+/* Kenar Çubuğu */
 .container .sidebar{}
 
 .sidebar .sdb_holder{margin-bottom:50px;}
 .sidebar .sdb_holder:last-child{margin-bottom:0;}
 
 
-/* Testimonials
+/* Görüşler
 --------------------------------------------------------------------------------------------------------------- */
 #testimonials{}
 #testimonials li{}
@@ -96,7 +87,7 @@ File: Layout CSS
 #testimonials li blockquote{display:block; position:relative; width:100%; margin:0; padding:0;}
 
 
-/* Logos
+/* Logolar
 --------------------------------------------------------------------------------------------------------------- */
 #logos{padding:30px 0;}
 #logos li{float:left; width:16%; margin-left:5%;}
@@ -105,7 +96,7 @@ File: Layout CSS
 #logos li:hover img{opacity:1;}
 
 
-/* Footer
+/* Alt Bilgi
 --------------------------------------------------------------------------------------------------------------- */
 #footer{padding:80px 0;}
 
@@ -126,7 +117,7 @@ File: Layout CSS
 #footer button{padding:8px 18px 10px; text-transform:uppercase; font-weight:700; cursor:pointer;}
 
 
-/* Copyright
+/* Haklar
 --------------------------------------------------------------------------------------------------------------- */
 #copyright{padding:20px 0;}
 #copyright *{margin:0; padding:0;}
